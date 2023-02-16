@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-/**
- * printing wit puts
- */
+/* main - printing strings */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
