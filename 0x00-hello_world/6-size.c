@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{
+	char a;
+	int i;
+	long int l;
+	long long int o;
+	float f;
+
+	printf("Size of a char: %lu byte(s)",(unsigned long)sizeof(a));
+	printf("Size of an int: %lu byte(s)",(unsigned long)sizeof(i));
+	printf("Size of a long int: %lu byte(s)",(unsigned long)sizeof(l));
+	printf("Size of a long long int: %lu byte(s)",(unsigned long)sizeof(o));
+	printf("Size of a float: %lu byte(s)",(unsigned long)sizeof(f));
+	return (0);
+}
