@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - print size of
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	char a;
