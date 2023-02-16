@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* size of types */
 int main(void)
 {
 	char a;
