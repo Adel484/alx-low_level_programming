@@ -7,8 +7,8 @@
 int main(void)
 {
 	int i;
-	i = 48;
 
+	i = 48;
 	while (i <= 57)
 	{
 		putchar(i);
@@ -20,5 +20,5 @@ int main(void)
 		i++;
 	}
 	putchar('\n');
-	return (0);	
+	return (0);
 }
