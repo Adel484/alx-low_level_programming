@@ -8,8 +8,8 @@ int main(void)
 {
 	int _;
 
-	for (_ = 0; _ < 10; +++)
-		putchar(i);
+	for (_ = 0; _ < 10; _++)
+		putchar(_);
 	putchar('\n');
 	return (0);
 }
