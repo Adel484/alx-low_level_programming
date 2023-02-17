@@ -6,10 +6,10 @@
 
 int main(void)
 {
-	char str[25];
+	char str[a..z];
 	int i;
 
-	for (i=0; i < 26; i++)
+	for (i = 0; i < 26; i++)
 	{
 		putchar(str[i]);
 	}
