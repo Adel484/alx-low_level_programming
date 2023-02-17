@@ -6,12 +6,11 @@
 
 int main(void)
 {
-	char str[a..z];
-	int i;
+	char i;
 
-	for (i = 0; i < 26; i++)
+	for (i = a; i < z; i++)
 	{
-		putchar(str[i]);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
