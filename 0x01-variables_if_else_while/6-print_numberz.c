@@ -6,9 +6,9 @@
 
 int main(void)
 {
-	int i;
+	int _;
 
-	for (i = 0; i < 10; i++)
+	for (_ = 0; _ < 10; +++)
 		putchar(i);
 	putchar('\n');
 	return (0);
