@@ -20,22 +20,16 @@ int main(void)
 						continue;
 					if (i == k && j == m)
 						continue;
-					if (i == j && j == k && k == m)
-					{
-						continue;
-					}
-					/*if (i == k && j == m)
-					{
-						continue;
-					}*/
 					putchar(i);
 					putchar(j);
 					putchar(' ');
 					putchar(k);
 					putchar(m);
-				/*	if (i != 56) */
-					putchar(',');
-					putchar(' ');
+					if (j != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
