@@ -20,6 +20,10 @@ int main(void)
 					{
 						continue;
 					}
+					if (i == k && j == m)
+					{
+						continue;
+					}
 					putchar(i);
 					putchar(j);
 					putchar(' ');
