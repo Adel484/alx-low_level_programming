@@ -16,14 +16,14 @@ int main(void)
 		{
 			for (k = j + 1;k <= 57; k++)
 			{
-				if (i == j == k)
+				if (i == j && i == k && j == k)
 				{
 					continue;
 				}
 				putchar(i);
 				putchar(j);
 				putchar(k);
-				if (i != 56)
+				if (i != 55)
 				{
 					putchar(',');
 					putchar(' ');
