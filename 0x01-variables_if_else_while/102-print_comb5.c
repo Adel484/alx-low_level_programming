@@ -16,7 +16,7 @@ int main(void)
 			{
 				for (m = 48; m <= 57; m++)
 				{
-					if (m < j)
+					if (m < j && k < j)
 						continue;
 					if (i == k && j == m)
 						continue;
@@ -25,7 +25,7 @@ int main(void)
 					putchar(' ');
 					putchar(k);
 					putchar(m);
-					if (j != 56)
+					if (j != 57)
 					{
 						putchar(',');
 						putchar(' ');
