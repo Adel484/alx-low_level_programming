@@ -20,7 +20,7 @@ int main(void)
 						continue;
 					if (i == k && j == m)
 						continue;
-					if (i == k && m < j)
+					if (k > j && m < j)
 						continue;
 					putchar(i);
 					putchar(j);
