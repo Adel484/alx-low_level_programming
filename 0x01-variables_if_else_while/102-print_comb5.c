@@ -25,11 +25,10 @@ int main(void)
 					putchar(' ');
 					putchar(k);
 					putchar(m);
-					if (j != 57)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+					if (i == 9 && k == 9 && m == 9 && j == 8)
+						continue;
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
