@@ -20,14 +20,14 @@ int main(void)
 						continue;
 					if (i == k && j == m)
 						continue;
-					if (k > j && m < j)
+					if (k == i && m < j)
 						continue;
 					putchar(i);
 					putchar(j);
 					putchar(' ');
 					putchar(k);
 					putchar(m);
-					if (i == 9 && k == 9 && m == 9 && j == 8)
+					if (i == 57 && k == 57 && m == 57 && j == 56)
 						continue;
 					putchar(',');
 					putchar(' ');
