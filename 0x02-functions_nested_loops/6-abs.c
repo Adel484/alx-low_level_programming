@@ -5,10 +5,10 @@
  * Return: abs
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	if (int < 0)
-		return (_putchar(int * -1));
+	if (n < 0)
+		return (_putchar(n * -1));
 	else
-		return (-putchar(int);
+		return (-putchar(n));
 }
