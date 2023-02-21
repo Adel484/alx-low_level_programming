@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - print
+ * main - check the code for Holberton School students.
  *
- * Return: 0
+ * Return: Always 0.
  */
 int main(void)
 {
