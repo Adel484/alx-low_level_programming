@@ -4,6 +4,8 @@
 /**
  * _islower - checks for a lowercase
  *
+ *@c: ammar
+ *
  * Return: 1 or 0
  */
 
