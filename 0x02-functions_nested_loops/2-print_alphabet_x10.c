@@ -1,15 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - printing 10 times the alphabet
- * Return: 0
+ * print_alphabet - printing 10 times the alphabet
+ * Return: No return
  */
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
 
 void print_alphabet_x10(void)
 {
