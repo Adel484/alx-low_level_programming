@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - prototype
- * Return: 0
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
 
 int main(void)
