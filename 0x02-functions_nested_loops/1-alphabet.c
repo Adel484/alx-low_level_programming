@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * main - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
 	print_alphabet();
@@ -18,7 +18,7 @@ void print_alphabet(void)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(i);
+		_putchar(i);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
