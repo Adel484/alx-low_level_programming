@@ -6,23 +6,17 @@
 
 int main(void)
 {
-	int i, m;
-	char k[] = "Fizz";
-	char l[] = "Buzz";
+	int i;
 
 	for (i = 1; i <= 100)
 	{
 		if (i % 3 == 0)
-		{
-			for (m = 48; m < 52)
-				_putchar(k[m]);
-		}
+			printf("Fizz");
 		else if (i % 5 == 0)
-		{
-			for (m = 48; m < 52)
-				_putchar(l[m];
-		}
+			printf("Buzz");
+		else if (i % 3 == 0 && i % 5 == 0)
+			printf("FizzBuzz")
 		else
-			_putchar('i');
+			printf("%d", i);
 	}
 }
