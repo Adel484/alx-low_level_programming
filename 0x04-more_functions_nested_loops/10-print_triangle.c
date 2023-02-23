@@ -17,9 +17,13 @@ void print_triangle(int size)
 			_putchar('\n');
 			break;
 		}
-		for (k = size; k <= 1; k++)
+		for (k = size; k <= 1; k--)
 			_putchar(32);
 		for (k = 1; k <= i; k ++)
 			_putchar(35);
+		if (i == size - 1)
+			continue;
+		_putchar('\n');
 	}
+	_putchar('\n');
 }
