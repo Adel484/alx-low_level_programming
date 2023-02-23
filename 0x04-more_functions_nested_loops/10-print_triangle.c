@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * print_triangle - trinagle with #
  * @size: size of trinagle
