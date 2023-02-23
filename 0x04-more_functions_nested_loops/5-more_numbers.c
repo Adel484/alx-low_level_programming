@@ -9,8 +9,8 @@ void more_numbers(void)
 	int i;
 	int k;
 
-	i = 48;
-	while (i < 58)
+	i = 0;
+	while (i < 9)
 	{
 		for (k = 0; k < 15; k++)
 		{
