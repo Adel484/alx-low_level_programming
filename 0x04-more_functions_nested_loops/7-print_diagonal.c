@@ -19,6 +19,11 @@ void print_diagonal(int n)
 		}
 		for (k = 0; k < i; k++)
 		{
+			if (k == 0)
+			{
+				_putchar(92)
+				continue;
+			}
 			_putchar(32);
 		}
 		_putchar(92);
