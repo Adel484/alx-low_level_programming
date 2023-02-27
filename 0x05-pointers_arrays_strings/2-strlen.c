@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strlen - lenght
- * @*s: par
+ * @s: par
  * Return: lenght
  */
 
