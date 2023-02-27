@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - print a string
- * @str: par
+ * str: par
  * Return: string
  */
 
@@ -13,7 +13,7 @@ void _puts(char *str)
 	while (str[l])
 	{
 		_putchar(str[l]);
-		l++
+		l++;
 	}
 	_putchar('\n');
 }

@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_rev - print in reverse
- * @s: str
+ * s: str
  * Return: str in rev
  */
 
@@ -9,10 +9,11 @@ void print_rev(char *s)
 {
 	int l;
 
-	l = sizeof(s);
-	while (l >= 0)
+	l = 0;
+	while (s[l])
 	{
 		_putchar(s[l]);
+		l++;
 	}
 	_putchar('\n');
 }
