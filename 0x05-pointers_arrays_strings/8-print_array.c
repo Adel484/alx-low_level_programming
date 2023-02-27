@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * print_array - no need
- * @*a - array
- * @ n - number of elements
+ * @a - array
+ * @n - number of elements
  * Return: array
  */
 
