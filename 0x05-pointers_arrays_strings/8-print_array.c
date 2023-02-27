@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * print_array - no need
- * @a - array
- * @n - number of elements
+ * @a: array
+ * @n: number of elements
  * Return: array
  */
 
@@ -18,5 +18,5 @@ void print_array(int *a, int n)
 			continue;
 		printf(", ");
 	}
-	_putchar('\n');
+	printf("\n");
 }
