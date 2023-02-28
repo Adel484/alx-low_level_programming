@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 #include <stdlib.h>
 /**
  * main - random pass
@@ -10,5 +11,5 @@ int main(void)
 	int random = rand();
 
 	srand(time(0));
-	return (0);
+	return (random);
 }
