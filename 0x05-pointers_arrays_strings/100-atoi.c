@@ -7,21 +7,20 @@
 
 int _atoi(char *s)
 {
-	int i, l;
+	int sign = 1;
+	unsigned int num = 0;
 
-	l = 0;
-	while (s[l])
-		l++;
-	for (i = 0; i < l; i++)
-	{
-		if (s[i] == '-')
-		{
-			_putchar('-');
-		}
-		else if (s[i] >= '0' && s[i] <= '9')
-			_putchar(s[i]);
-		else
-			continue;
-	}
-	return (s);
+	do {
+		if (*s == '-')
+			sign *= -1;
+
+		else if (*s >= '0' && *s <= '9')
+			num = (num * 10) + (*s - '0');
+
+		else if (num > 0)
+			break;
+
+	} while (*s++);
+
+	return (num * sign);
 }
