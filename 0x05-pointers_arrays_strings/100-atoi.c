@@ -16,7 +16,7 @@ int _atoi(char *s)
 	{
 		if (s[i] == '-')
 			_putchar('-');
-		else if (s[i] >= 0 && s[i] <= 9)
+		else if (s[i] >= '0' && s[i] <= '9')
 			_putchar(s[i]);
 		else
 			continue;
