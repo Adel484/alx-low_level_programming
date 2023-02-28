@@ -7,7 +7,7 @@
 
 int _atoi(char *s)
 {
-	int i, l, m;
+	int i, l, ;
 
 	l = 0;
 	while (s[l])
@@ -15,9 +15,9 @@ int _atoi(char *s)
 	for (i = 0; i < l; i++)
 	{
 		if (s[i] == '-')
-			_putchar(45);
+			return ('-');
 		else if (s[i] >= 0 && s[i] <= 9)
-			_putchar(s[i]);
+			return (s[i]);
 		else
 			continue;
 	}
