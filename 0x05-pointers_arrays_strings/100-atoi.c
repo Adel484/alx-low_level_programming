@@ -15,10 +15,11 @@ int _atoi(char *s)
 	for (i = 0; i < l; i++)
 	{
 		if (s[i] == '-')
-			return ('-');
+			_putchar('-');
 		else if (s[i] >= 0 && s[i] <= 9)
-			return (s[i]);
+			_putchar(s[i]);
 		else
 			continue;
 	}
+	return (0);
 }
