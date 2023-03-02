@@ -7,16 +7,10 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i, k = 0;
-
-	while (s1[i])
-		i++;
-	while (s2[k])
-		k++;
-	if (i == k)
-		return (0);
-	else if (i < k)
-		return (*s1 - *s2);
-	else 
-		return (1);
+	while (*s1 && *s2 && *s1 == *s2)
+	{
+		s1++;
+		s2++;
+	}
+	return (*s1 - *s2);
 }
