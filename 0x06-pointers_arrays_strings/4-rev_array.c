@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * reverse_array - rev content of arr
  * @a: array
  * @n: num of elements of arr
