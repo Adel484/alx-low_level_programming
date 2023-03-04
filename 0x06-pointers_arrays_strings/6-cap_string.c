@@ -15,8 +15,10 @@ char *cap_string(char *str)
 		{
 			if (str[i - 1] >= 32 && str[i - 1] <= 90)
 				str[i] -= 32;
-			else if (str[i - 1] == '{' || '}')
+			else if (str[i - 1] == '{' || str[i - 1] == '}')
 				str[i] -= 32;
+			else if (str [i - 1] == '\n')
+				str [i] -= 32;
 		}
 		i++;
 	}
