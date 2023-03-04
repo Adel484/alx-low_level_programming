@@ -13,11 +13,9 @@ char *cap_string(char *str)
 	{
 		if (str[i] >= 91 && str[i] <= 122)
 		{
-			if (str[i] >= 32 && str[i] <= 90)
+			if (str[i] >= 32 && str[i] <= 90 || str[i] == '{' || str[i] == '}')
 				continue;
 			else if (str[i - 1] >= 32 && str[i - 1] <= 63)
-				str[i] -= 32;
-			else if (str[i - 1] == '{' || str[i - 1] == '}')
 				str[i] -= 32;
 			else if (str[i - 1] == '\n')
 				str[i] -= 32;
