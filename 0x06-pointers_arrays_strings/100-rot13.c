@@ -14,9 +14,9 @@ char *rot13(char *str)
 		for (k >= 'a'; k <= 'z'; k++)
 		{
 			if (str[i] == alpha[k] && k < 'm')
-				str[i] = alpha[k + 13];
+				str[i] = alpha[k] + 'm';
 			else
-				str[i] = alpha[k - 13];
+				str[i] = alpha[k] - 'm';
 		}
 		i++;
 	}
