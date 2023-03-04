@@ -10,6 +10,6 @@ void print_number(int n)
 	while (n)
 	{
 		_putchar(n);
-		n++
+		n++;
 	}
 }
