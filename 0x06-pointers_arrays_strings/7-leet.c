@@ -15,7 +15,7 @@ char *leet(char *str)
 
 	while (str[i])
 	{
-		while(str1[k])
+		while (str1[k])
 		{
 			if (str[i] == str1[k])
 				str[i] = rep[k];
