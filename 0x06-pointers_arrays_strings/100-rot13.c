@@ -7,17 +7,16 @@
 
 char *rot13(char *str)
 {
-	int i = 0;
-	char k;
+	int i = 0, k;
 
 	while (str[i])
 	{
 		for (k >= 'a'; k <= 'z'; k++)
 		{
-			if (str[i] == alpha[k] && k < 'm')
-				str[i] = alpha[k] + 13;
+			if (str[i] == k && k < 'm')
+				str[i] = k + 13;
 			else
-				str[i] = alpha[k] - 13;
+				str[i] = k - 13;
 		}
 		i++;
 	}
