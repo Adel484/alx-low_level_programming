@@ -17,7 +17,7 @@ char *cap_string(char *str)
 				str[i] -= 32;
 			else if (str[i - 2] == '\')
 				str[i] -= 32;
-			else if (str[i - 1] == '{' || '}')
+			else if (str[i - 1] == '{' || str[i - 1] == '}')
 				str[i] -= 32;
 		}
 		i++;
