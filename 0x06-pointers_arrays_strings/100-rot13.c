@@ -8,7 +8,7 @@
 char *rot13(char *str)
 {
 	int i = 0;
-	char k;
+	int k;
 
 	while (str[i])
 	{
