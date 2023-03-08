@@ -7,5 +7,10 @@
 
 void _puts_recursion(char *s)
 {
-	return (*s);
+	int i = -1;
+
+	if (s[i] == '\0')
+		break;
+	i++;
+	return (s[i], _puts_recursion(s));
 }
